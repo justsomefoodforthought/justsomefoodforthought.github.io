@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="post-detail">
+  <a class="back-link" href="{{ "/" | relative_url }}">&larr; back to all posts</a>
+  <h1>{{ page.title | escape }}</h1>
+  <div class="meta">{{ page.date | date: "%B %-d, %Y" }}</div>
+  <div class="body-text">
+    {{ content }}
+  </div>
+</article>
