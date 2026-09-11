@@ -1,5 +1,4 @@
-remote_theme: pages-themes/minima@v3.0.1
-plugins:
-  - jekyll-remote-themetitle: justsomefoodforthought
+theme: jekyll-theme-minima
+title: justsomefoodforthought
 description: not much. just some food for thought.
 show_excerpts: true
